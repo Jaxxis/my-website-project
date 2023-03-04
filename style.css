@@ -152,3 +152,7 @@ h3{
     background: black;
     color: white;
 }
+
+.details p{
+    font-size: 10px;
+}
