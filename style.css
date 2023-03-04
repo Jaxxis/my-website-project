@@ -149,10 +149,61 @@ h3{
 }
 
 .details:hover{
-    background: black;
+    background: #0b275c;
     color: white;
 }
 
 .details p{
     font-size: 10px;
 }
+
+/* CONTACT SECTION */
+
+.contact{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    padding: 20px;
+}
+.contact h1{
+    padding-bottom:20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #0b275c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
