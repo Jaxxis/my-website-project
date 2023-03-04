@@ -30,7 +30,6 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
-
 .nav-links ul li a{
     color: white;
     text-decoration: none;
@@ -46,4 +45,37 @@ nav img{
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 65px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: white; 
+}
+.find-out-more-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    padding: 10px;
+}
+
+.find-out-more-button:hover{
+    border: 1px solid white;
+    background: black;
+    transition: .05s;
 }
