@@ -79,3 +79,23 @@ nav img{
     background: black;
     transition: .05s;
 }
+
+/* ABOUT SECTION */
+
+.about{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    width: 200px;
+    height:200px;
+    border: solid 2px black;
+    border-radius: 200px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 10px;
+}
