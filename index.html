@@ -9,15 +9,15 @@
     <title>My Professional Website</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="anchor-header">
         <nav>
             <a href="index.html"><img src="Assets/Jake Logo.png"></a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">PROJECTS</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#anchor-header">HOME</a></li>
+                    <li><a href="#anchor-about">ABOUT</a></li>
+                    <li><a href="#anchor-projects">PROJECTS</a></li>
+                    <li><a href="#anchor-contact">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,7 +29,7 @@
     </header>
     <main>
         <!--  ABOUT SECTION -->
-        <section class="about">
+        <section class="about" id="anchor-about">
             <img src="Assets/Jake_Profile.jpg" alt="Jakes Headshot">
             <h1>Meet Jake</h1>
             <section class="row">
@@ -44,7 +44,7 @@
             </section>
         </section>       
         <!-- PROJECTS SECTION -->
-        <section class="projects"> 
+        <section class="projects" id="anchor-projects"> 
             <h1>My Projects</h1>
             <p>Here are just some of the projects I have contributed to</p>
             <div class="row">
@@ -72,7 +72,7 @@
             </div>
         </section>
         <!-- CONTACT SECTION -->
-        <section class="contact">
+        <section class="contact" id="anchor-contact">
             <h1>Lets Work together!</h1>
             <div class="form">
                 <form action="">
@@ -89,6 +89,8 @@
             </div>
         </section>
     </main>
-    
+    <footer>
+        <h4>Created by J.Mckenzie-Edwards</h4>
+    </footer>
   </body>
 </html>
