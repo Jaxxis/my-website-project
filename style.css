@@ -117,3 +117,38 @@ h3{
     Text-align: center;
     margin: 10px 0;
 }
+
+/* PROJECTS SECTION */
+
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.projects-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-col img{
+    width:100%;
+}
+.details{
+    color: transparent;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:0.5s;
+}
+
+.details:hover{
+    background: black;
+    color: white;
+}
