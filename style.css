@@ -88,7 +88,7 @@ nav img{
     text-align: center;
     padding-top: 50px;
 }
-img{
+.about img{
     width: 200px;
     height:200px;
     border: solid 2px black;
@@ -98,4 +98,22 @@ h1{
     font-size: 36px;
     font-weight: 600;
     padding-top: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between
+}
+
+.about-col{
+    flex-basis: 48%;
+    background: cornsilk;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    Text-align: center;
+    margin: 10px 0;
 }
